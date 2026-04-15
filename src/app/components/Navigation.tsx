@@ -18,12 +18,12 @@ export function Navigation() {
 
   return (
     <motion.div
-      className="fixed top-6 md:top-8 left-1/2 -translate-x-1/2 z-50"
+      className="fixed left-4 top-1/2 -translate-y-1/2 z-50"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 1 }}
     >
-      <div className="backdrop-blur-xl bg-white/40 border border-white/60 rounded-full px-4 md:px-6 py-2 md:py-3 shadow-2xl flex gap-1 md:gap-2 pointer-events-auto">  {navItems.map((item) => {
+      <div className="backdrop-blur-xl bg-white/40 border border-white/60 rounded-full px-1.5 md:px-3 py-2 md:py-3 shadow-2xl flex flex-col gap-1 md:gap-2 pointer-events-auto">  {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.path;
 
