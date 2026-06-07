@@ -94,30 +94,30 @@ export function FinalMessage() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            <p>I know I joke around a lot. The sarcasm, the teasing, the pretending I'm annoyed...</p>
+            <p>I just wanna say **thank you** for being the most amazing friend I could ever ask for. 💖✨
 
-            <p>
-              But the truth is, you mean more to me than I could ever put into words. You're not
-              just someone I tolerate — you're someone who makes my entire world brighter.
-            </p>
+I met you when I was completely done with friendships and betrayals, and you showed me what a real friendship actually looks like. 🌸🤝 You made me realize that not every female friendship is toxic. 💕
 
-            <p>
-              Every laugh, every adventure, every quiet moment together — they're all treasures I
-              keep close to my heart.
-            </p>
+Thank you for staying by my side through everything, even during the moments when words weren't needed. 🫂💗 Thank you for believing in me when you could have misunderstood me just like others did. 🌷✨ Thank you for always listening to my side of the story, my endless rants, and all the random nonsense I throw at you. 😂💬
 
-            <p className="text-2xl md:text-3xl font-semibold text-transparent bg-gradient-to-r from-pink-500 via-rose-500 to-purple-500 bg-clip-text text-center my-8">
-              Thank you for being exactly who you are.
-            </p>
+And remember, I am always here for you whenever you need me — and even when you don't. 🤍🌹
 
-            <p>
-              You're annoying, stubborn, and completely impossible sometimes... but you're also
-              kind, genuine, and absolutely irreplaceable.
-            </p>
+I am so grateful to have such a kind, cheerful, beautiful, and extroverted person like you in my life. ☀️🌻💃✨ You bring so much happiness wherever you go, and I'm lucky that I get to call you my friend. 💝
+
+Just thanksss for everything...!! 🥹💞
+
+And know that I Lovee Youuuhh...!!! ❤️💕🥰💖✨
+</p>
 
             <p className="text-center text-3xl md:text-4xl font-bold text-pink-500 mt-10">
               Happy Birthday, my favorite person. ❤️
             </p>
+          
+          <p className="text-center">
+              You're annoying, stubborn, and completely impossible sometimes... but you're also
+              kind, genuine, and absolutely irreplaceable.
+            </p>
+
           </motion.div>
         </motion.div>
 

@@ -3,28 +3,18 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import { Heart, ArrowRight } from "lucide-react";
 
-const letterText = `Dear Birthday Person,
+const letterText = `To my favourite one Emma, 
+You're not just my friend 
+You're the best chapter of my life I'll never forget. 
+You're my favourite best friend.. Ilysmm twinn!!! 
 
-So… another year, huh? I guess that means another year of dealing with your questionable music taste, your inability to pick a restaurant, and that thing you do where you leave cabinet doors open. (Seriously, why?)
+I just wanted to take a moment to tell you how much you mean to me. 
+Lysm..!! Bbg
 
-But here's the thing…
-
-Despite all of that — despite your terrible jokes, your weird obsession with random facts nobody asked for, and the way you somehow always manage to steal the blanket at night — you're still my favorite human.
-
-You're annoying in the best possible way. You're stubborn, but it makes you passionate. You're chaotic, but it keeps life interesting. And you're absolutely, undeniably, the most important person in my world.
-
-I tolerate you… which is basically love. ❤️
-
-Actually, scratch that. I don't just tolerate you. I genuinely, deeply, completely adore you. You make me laugh when I want to scream. You make me feel seen when I want to hide. You make ordinary moments feel extraordinary.
-
-So happy birthday to someone who deserves the world, even if they're terrible at accepting compliments.
-
-Here's to another year of me pretending you're not my favorite person.
-
-(Spoiler: You totally are.)
-
-Forever yours,
-Your Favorite Person (obviously)`;
+Happiiee Birthhdayyie too youuh!! 
+I hope your day is filled with smiles, good vibes and all little things that make you happy. Stay loud, stay pretty, stay You. 
+Stay the amazing person you are, have a beautiful day ahead! :)
+                          ~ Harsha <3`;
 
 export function LoveLetter() {
   const navigate = useNavigate();

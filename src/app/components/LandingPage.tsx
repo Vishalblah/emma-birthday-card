@@ -72,17 +72,17 @@ export function LandingPage() {
               ease: "easeInOut",
             }}
           >
-            <Sparkles className="w-16 h-16 text-pink-400 mx-auto" strokeWidth={1.5} />
+            {/* <Sparkles className="w-16 h-16 text-pink-400 mx-auto" strokeWidth={1.5} /> */}
           </motion.div>
 
-          <motion.h1
+          {/* <motion.h1
             className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           >
-            Happy Birthday!
-          </motion.h1>
+            Happy Birthday Emma!
+          </motion.h1> */}
 
           <motion.div
             className="space-y-4 mb-12"
@@ -90,12 +90,7 @@ export function LandingPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
           >
-            <p className="text-xl md:text-2xl lg:text-3xl text-gray-700 font-light">
-              Another year older… still no maturity detected 😏
-            </p>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-600 font-light">
-              But honestly? I wouldn't have it any other way.
-            </p>
+            <img src="/image222.png" alt="image" />
           </motion.div>
 
           {/* Glassmorphism Card */}

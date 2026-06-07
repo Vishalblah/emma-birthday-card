@@ -191,13 +191,7 @@ export function SurprisePage() {
                     Just kidding (kind of). Your real gift is a whole day dedicated to doing
                     whatever you want — no complaints, no arguments, complete freedom.
                   </p>
-                  <p className="leading-relaxed">
-                    Want to watch 5 movies in a row? Done.
-                    <br />
-                    Eat dessert for breakfast? I'm in.
-                    <br />
-                    Adventure to somewhere random? Let's go.
-                  </p>
+                  <img src="/image1.png" alt="image" />
                   <p className="text-2xl md:text-3xl font-semibold text-transparent bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text mt-8">
                     It's your day. Make it count. ❤️
                   </p>
