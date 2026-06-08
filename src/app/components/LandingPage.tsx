@@ -75,8 +75,20 @@ export function LandingPage() {
             <Sparkles className="w-16 h-16 text-pink-400 mx-auto" strokeWidth={1.5} />
           </motion.div>
 
+          <motion.div
+            className="space-y-4 mb-12"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+          >
+            <img src="/image2222.png" alt="image" />
+          </motion.div>
           <motion.h1
-            className="text-6xl md:text-7xl lg:text-8xl font-bold mb-3 bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 bg-clip-text text-transparent"
+            className="absolute top-0 left-1/2 -translate-x-1/2
+               text-6xl md:text-7xl lg:text-8xl font-bold
+               bg-gradient-to-r from-pink-700 via-purple-400 to-blue-400
+               bg-clip-text text-transparent z-20
+               leading-none"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
@@ -84,14 +96,6 @@ export function LandingPage() {
             Happy Birthday Emma!
           </motion.h1>
 
-          <motion.div
-            className="space-y-4 mb-12"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          >
-            <img src="/image22.png" alt="image" />
-          </motion.div>
 
           {/* Glassmorphism Card */}
           <motion.div
