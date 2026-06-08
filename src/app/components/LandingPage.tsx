@@ -84,9 +84,9 @@ export function LandingPage() {
             <img src="/image2222.png" alt="image" />
           </motion.div>
           <motion.h1
-            className="absolute top-0 left-1/2 -translate-x-1/2
+            className="absolute top-10 left-1/2 -translate-x-1/2
                text-6xl md:text-7xl lg:text-8xl font-bold
-               bg-gradient-to-r from-pink-700 via-purple-400 to-blue-400
+               bg-gradient-to-r from-pink-700 via-purple-400 to-blue-500
                bg-clip-text text-transparent z-20
                leading-none"
             initial={{ opacity: 0, y: 20 }}
