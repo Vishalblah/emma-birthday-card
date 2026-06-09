@@ -14,40 +14,40 @@ interface Memory {
 const memories: Memory[] = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1758523672800-63130c59175b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXBweSUyMGNvdXBsZSUyMGxhdWdoaW5nJTIwdG9nZXRoZXJ8ZW58MXx8fHwxNzc2MTM3ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "That time we laughed until we cried",
-    sarcasticNote: "You have the most annoying laugh… and I love it 😊",
+    image: "/pic2.jpeg",
+    caption: "",
+    sarcasticNote: "",
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1572034747998-1263b822be0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyb21hbnRpYyUyMHN1bnNldCUyMGJlYWNoJTIwd2Fsa3xlbnwxfHx8fDE3NzYyNTAxMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Sunset walks and deep talks",
-    sarcasticNote: "You're terrible at walking straight on the beach, btw",
+    image: "/pic1.jpeg",
+    caption: "",
+    sarcasticNote: "",
   },
   {
     id: 3,
-    image: "https://images.unsplash.com/photo-1763683943836-b3cdfd41d4f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBzaGFyaW5nJTIwZGVzc2VydCUyMGNhZmV8ZW58MXx8fHwxNzc2MjUwMTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Sweet moments (literally)",
-    sarcasticNote: "You always steal my dessert. Every. Single. Time.",
+    image: "/pic3.jpeg",
+    caption: "",
+    sarcasticNote: "",
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1761472084994-61d80b8f4053?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmcmllbmRzJTIwYWR2ZW50dXJlJTIwaGlraW5nJTIwbW91bnRhaW5zfGVufDF8fHx8MTc3NjI1MDEzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Adventures with my favorite person",
-    sarcasticNote: "You complained the whole way up. Worth it though ❤️",
+    image: "/pic4.jpeg",
+    caption: "",
+    sarcasticNote: "",
   },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1774538272529-53562925d6bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwaG9tZSUyMG1vdmllJTIwbmlnaHR8ZW58MXx8fHwxNzc2MjUwMTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Cozy nights in",
-    sarcasticNote: "You fall asleep in the first 10 minutes. Every time.",
-  },
-  {
-    id: 6,
-    image: "https://images.unsplash.com/photo-1672841821756-fc04525771c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwbXVzaWMlMjBmZXN0aXZhbCUyMGNyb3dkfGVufDF8fHx8MTc3NjI0NTE5MXww&ixlib=rb-4.1.0&q=80&w=1080",
-    caption: "Making memories together",
-    sarcasticNote: "Still can't believe you made me go. Best night ever.",
-  },
+  // {
+  //   id: 5,
+  //   image: "https://images.unsplash.com/photo-1774538272529-53562925d6bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3p5JTIwaG9tZSUyMG1vdmllJTIwbmlnaHR8ZW58MXx8fHwxNzc2MjUwMTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  //   caption: "Cozy nights in",
+  //   sarcasticNote: "You fall asleep in the first 10 minutes. Every time.",
+  // },
+  // {
+  //   id: 6,
+  //   image: "https://images.unsplash.com/photo-1672841821756-fc04525771c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwbXVzaWMlMjBmZXN0aXZhbCUyMGNyb3dkfGVufDF8fHx8MTc3NjI0NTE5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+  //   caption: "Making memories together",
+  //   sarcasticNote: "Still can't believe you made me go. Best night ever.",
+  // },
 ];
 
 export function MemoriesGallery() {
@@ -67,7 +67,7 @@ export function MemoriesGallery() {
           Our Memories
         </h1>
         <p className="text-xl text-gray-600">
-          A collection of moments I pretend to tolerate 😏
+          A collection of my bbg 🌸
         </p>
       </motion.div>
 

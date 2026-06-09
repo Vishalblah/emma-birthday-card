@@ -81,7 +81,7 @@ export function LandingPage() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
           >
-            <img src="/image2222.png" alt="image" />
+            <img src="/pic7.png" alt="image" />
           </motion.div>
           <motion.h1
             className="absolute top-10 left-1/2 -translate-x-1/2
